@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Unified Wisdom</title>
+    <link>https://mp3wisdom.github.io/unifiedwisdompodcast/</link>
+    <description>A podcast exploring wisdom, stories, and reflections.</description>
+    <language>en-us</language>
+    <itunes:author>Kishore</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:category text="Philosophy"/>
+    <!-- Episodes will be added dynamically via n8n -->
+  </channel>
+</rss>

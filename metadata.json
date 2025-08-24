@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Episode 1 – Beginning the Journey",
+    "description": "A reflection on starting Unified Wisdom.",
+    "pubDate": "Mon, 25 Aug 2025 12:00:00 GMT",
+    "file": "episodes/ep1.mp3",
+    "length": "12345678",  
+    "duration": "00:15:30"
+  },
+  {
+    "title": "Episode 2 – Urban Loneliness",
+    "description": "Exploring solitude in modern cities.",
+    "pubDate": "Tue, 26 Aug 2025 12:00:00 GMT",
+    "file": "episodes/ep2.mp3",
+    "length": "23456789",
+    "duration": "00:20:10"
+  }
+]

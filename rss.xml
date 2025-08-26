@@ -11,10 +11,10 @@
   <itunes:image href="https://mp3wisdom.github.io/unifiedwisdompodcast/cover.png"/>
 
   <item>
-    <title>My Fourth Book in English</title>
-    <description>This episode contains the fourth book in English.</description>
-    <pubDate>Wed, 27 Aug 2025 07:00:00 GMT</pubDate>
-    <enclosure url="https://pub-f000923aafd841f79859a973467e4669.r2.dev/My%20fourth%20book%20in%20english.mp3" length="7124252" type="audio/mpeg"/>
+    <title>My fourth book in English</title>
+    <description>First uploaded podcast episode</description>
+    <pubDate>Wed, 27 Aug 2025 00:00:00 GMT</pubDate>
+    <enclosure url="https://pub-f000923aafd841f79859a973467e4669.r2.dev/My%20fourth%20book%20in%20english.mp3" length="714252" type="audio/mpeg"/>
     <guid>https://pub-f000923aafd841f79859a973467e4669.r2.dev/My%20fourth%20book%20in%20english.mp3</guid>
     <itunes:duration>00:07:20</itunes:duration>
   </item>

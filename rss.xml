@@ -1,40 +1,23 @@
-import json
-from datetime import datetime
-
-BASE_URL = "https://mp3wisdom.github.io/unifiedwisdompodcast/"
-
-with open("metadata.json", "r", encoding="utf-8") as f:
-    episodes = json.load(f)
-
-rss = f'''<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
 <channel>
   <title>Unified Wisdom Podcast</title>
-  <link>{BASE_URL}</link>
+  <link>https://mp3wisdom.github.io/unifiedwisdompodcast/</link>
   <description>Exploring stories, reflections, and wisdom</description>
   <language>en-us</language>
   <itunes:author>Kishore</itunes:author>
   <itunes:explicit>false</itunes:explicit>
-  <itunes:category text="Society & Culture"/>
-  <itunes:image href="{BASE_URL}cover.png"/>
-'''
+  <itunes:category text="Society &amp; Culture"/>
+  <itunes:image href="https://mp3wisdom.github.io/unifiedwisdompodcast/cover.png"/>
 
-for ep in episodes:
-    rss += f"""
   <item>
-    <title>{ep['title']}</title>
-    <description>{ep['description']}</description>
-    <pubDate>{ep['pubDate']}</pubDate>
-    <enclosure url="{BASE_URL}{ep['file']}" length="{ep['length']}" type="audio/mpeg"/>
-    <guid>{BASE_URL}{ep['file']}</guid>
-    <itunes:duration>{ep['duration']}</itunes:duration>
+    <title>My Fourth Book in English</title>
+    <description>This episode contains the fourth book in English.</description>
+    <pubDate>Wed, 27 Aug 2025 07:00:00 GMT</pubDate>
+    <enclosure url="https://pub-f000923aafd841f79859a973467e4669.r2.dev/My%20fourth%20book%20in%20english.mp3" length="7124252" type="audio/mpeg"/>
+    <guid>https://pub-f000923aafd841f79859a973467e4669.r2.dev/My%20fourth%20book%20in%20english.mp3</guid>
+    <itunes:duration>00:07:20</itunes:duration>
   </item>
-"""
 
-rss += """
 </channel>
 </rss>
-"""
-
-with open("rss.xml", "w", encoding="utf-8") as f:
-    f.write(rss)
